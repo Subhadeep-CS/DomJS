@@ -1,0 +1,52 @@
+How website persed in browser?
+
+When you open an HTML file on browser,there are several steps occur to render the content
+of the webpage.
+
+1.Parsing HTML:-First,browser parsing HTML document and build a Document Object Model
+tree,which represent the structure of the document.
+
+2.Applying CSS styles:-Once DOM is constructed,the browser applies CSS styles element
+on each node.This process known as the rendering engine applying style to create the
+render tree.
+
+3.Layout:-After styles are applied,the browser calculate the layout of the elements and
+determining their position and size on the page.This process result in a layout tree.
+
+4.Painting:-The final step is painting,where the browser draws the pixel on the screen
+based on the layout tree.This process involved rendering the content,background,borders
+and other visual aspects.
+
+Now,javascript comes into picture after these steps:-
+
+5.Javascript Execution:-If there is JS code in the HTML file,it is executed.JS can mani
+pulate DOM,making dynamic changes on the webpage.Example=>add or remove element etc.
+
+6.Reflow and Repaint:-Changes made by JS may trigger reflow and repaint process,browser
+will recalculate the layout and all and repaint or redraw the website.
+
+This is simple six steps happens when I render the website,now we are focus on the 
+first step,creating DOM.
+
+So,now question is what is DOM(Document Object Model)?
+
+DOM stands for document object model,that determine the structure of a document,as a
+tree structure.
+
+When the HTML parsed on the browser,browser create a document object model and add every
+thing on that document object model.It's a tree structure that defines the structure
+of the document.
+
+Now,why we need document object model?
+
+Actually,DOM allows programmer to change the struture of document,add styles and make
+website dynamic and the main advantage of DOM is that we can traverse the whole
+document easily.
+
+Why DOM follows tree structure?
+
+1.Tree has the efficient way to traverse document.
+
+2.You can go every node by using root node.
+
+That's the advantage to maintain a tree structure.
