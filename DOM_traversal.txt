@@ -1,0 +1,8 @@
+I said thet main advantage of document object model(DOM) is we can easily traverse our
+document easily.
+
+DOM is the document object model loaded in the browser and representing the document as
+a NODE tree.In DOM where each node represent the part of the document.
+(e.g an element,textString,comment).
+
+Here, we write a basic HTML code and generate DOM using pen and paper.
