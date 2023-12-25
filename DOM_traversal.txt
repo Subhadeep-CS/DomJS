@@ -31,3 +31,13 @@ And put this all stuff in a object,called document object and attach this on the
 window object.You can find it on console.
 
 I attach a picture of document object(Document_object.png).
+
+You can also see the document object.
+
+By using
+
+1.console.log(window.document) => It's print the html form 
+
+2.To see the property and method of the document object,you can do
+
+console.dir(window.document);
