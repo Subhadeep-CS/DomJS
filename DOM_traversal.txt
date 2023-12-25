@@ -6,3 +6,28 @@ a NODE tree.In DOM where each node represent the part of the document.
 (e.g an element,textString,comment).
 
 Here, we write a basic HTML code and generate DOM using pen and paper.
+
+<html>
+    <head>
+        <title>My Website</title>
+    </head>
+    <body>
+        <p>I am a good boy</p>
+    </body>
+</html>
+
+When browser parse this html,It will create a tree structure like that
+
+                    html
+                    /   \
+                   /     \
+                head    body
+                \           \
+                title        p   
+                \            \
+                My Website     I am a good boy
+
+And put this all stuff in a object,called document object and attach this on the 
+window object.You can find it on console.
+
+I attach a picture of document object(Document_object.png).
