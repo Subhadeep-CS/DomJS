@@ -3,6 +3,12 @@
         <title>My website</title>
     </head>
     <body>
-        <p>I am a good boy.</p>
+        <p id="para">I am a good boy.</p>
     </body>
+    <script>
+        const item=document.getElementById("para");
+        // item.style.backgroundColor="black";
+        // item.style.color="blue";
+        item.setAttribute("style","background-color:red");
+    </script>
 </html>
